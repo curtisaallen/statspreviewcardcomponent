@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Preview Card Component Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body class="bg-[#0a0c1b]">
+
+    <div class="m-5 flex xl:h-screen justify-center items-center space-x-4">
+      <main class="w-screen max-w-5xl mx-auto bg-[#1c1938] rounded-xl w-full drop-shadow-xl grid xl:grid-cols-2">
+        <section class="pl-10 pr-10 pb-10 pt-0 xl:p-10">
+             <h1 class="text-white text-4xl font-bold mb-5 mt-10 text-center xl:text-left">Get <span class="text-[#ac59df]">insights</span> that help your business grow.</h1>
+             <p class="text-base text-[#9795ab] mb-7 text-center xl:text-left">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+             <div class="grid grid-cols-1 xl:grid-cols-3 mt-16 text-center xl:text-left">
+                <div class="mb-6">
+                  <p class="text-white text-2xl font-bold">10k+</p>
+                  <p class="text-base text-[#9795ab]">COMPANIES</p>
+                </div>
+                <div class="mb-6">
+                  <p class="text-white text-2xl font-bold">313</p>
+                  <p class="text-base text-[#9795ab]">TEMPLATES</p>
+                </div>
+                <div class="mb-6">
+                  <p class="text-white text-2xl font-bold">12M+</p>
+                  <p class="text-base text-[#9795ab]">QUERIES</p>
+                </div>
+             </div>
+        </section>
+        <picture class="bg-[#7b2aac] rounded-t-lg xl:rounded-l-none xl:rounded-r-lg order-first xl:order-last ">
+          
+          <img
+          class="object-fill h-full w-full rounded-t-lg xl:rounded-l-none xl:rounded-r-lg opacity-50" 
+          srcset="./images/image-header-mobile.jpg 480w, ./images/image-header-desktop.jpg 800w"
+          sizes="(max-width: 600px) 480px,
+                 800px"
+          src="./images/image-header-desktop.jpg"
+          alt="header image" />
+
+          
+        </picture>
+      </main>
+    </div>
+    
+</body>
+</html>
